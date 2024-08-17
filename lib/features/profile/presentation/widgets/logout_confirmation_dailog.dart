@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:social_media_narrator/theme/app_color.dart';
+import 'package:social_media_narrator/core/theme/app_color.dart';
 
 import '../../../auth/presentation/login/sign_in_form.dart';
 

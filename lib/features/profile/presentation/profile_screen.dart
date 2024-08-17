@@ -5,8 +5,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:social_media_narrator/theme/app_color.dart';
-import 'package:social_media_narrator/theme/responsive_size.dart';
+import 'package:social_media_narrator/core/theme/app_color.dart';
+import 'package:social_media_narrator/core/theme/responsive_size.dart';
 
 import '../../auth/presentation/login/sign_in_form.dart';
 

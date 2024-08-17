@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:social_media_narrator/profile/application/cubit/profile_cubit_cubit.dart';
-import 'package:social_media_narrator/profile/application/cubit/profile_cubit_state.dart';
-import 'package:social_media_narrator/profile/presentation/profile_screen.dart';
-import 'package:social_media_narrator/theme/app_color.dart';
+import 'package:social_media_narrator/features/profile/application/cubit/profile_cubit_cubit.dart';
+import 'package:social_media_narrator/features/profile/application/cubit/profile_cubit_state.dart';
+import 'package:social_media_narrator/features/profile/presentation/profile_screen.dart';
+import 'package:social_media_narrator/core/theme/app_color.dart';
 
 class NewsBottomNavigationBar extends StatefulWidget {
   const NewsBottomNavigationBar({super.key});

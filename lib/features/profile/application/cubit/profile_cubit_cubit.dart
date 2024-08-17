@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:social_media_narrator/profile/application/cubit/profile_cubit_state.dart';
-import 'package:social_media_narrator/profile/domain/user_model.dart';
-import 'package:social_media_narrator/profile/infrastructure/profile_repositary.dart';
+import 'package:social_media_narrator/features/profile/application/cubit/profile_cubit_state.dart';
+import 'package:social_media_narrator/features/profile/domain/user_model.dart';
+import 'package:social_media_narrator/features/profile/infrastructure/profile_repositary.dart';
 
 class ProfileCubit extends Cubit<ProfileState> {
   final ProfileRepo _profileRepo;

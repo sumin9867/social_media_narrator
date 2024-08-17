@@ -1,4 +1,4 @@
-import 'package:social_media_narrator/profile/domain/user_model.dart';
+import 'package:social_media_narrator/features/profile/domain/user_model.dart';
 
 abstract class AuthState {}
 

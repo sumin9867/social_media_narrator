@@ -3,11 +3,11 @@ import 'dart:convert';
 import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:social_media_narrator/auth/application/sign_up/auth_cubit.dart';
-import 'package:social_media_narrator/auth/presentation/widgets/phone_number_fiield.dart';
+import 'package:social_media_narrator/features/auth/application/sign_up/auth_cubit.dart';
+import 'package:social_media_narrator/features/auth/presentation/widgets/phone_number_fiield.dart';
 import 'package:social_media_narrator/location_type.dart';
-import 'package:social_media_narrator/theme/app_color.dart';
-import 'package:social_media_narrator/theme/responsive_size.dart';
+import 'package:social_media_narrator/core/theme/app_color.dart';
+import 'package:social_media_narrator/core/theme/responsive_size.dart';
 
 import '../../application/sign_up/auth_state.dart';
 import '../login/sign_in_form.dart';

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:social_media_narrator/theme/app_color.dart';
+
+import '../../../../core/theme/app_color.dart';
 
 class CustomTextField extends StatelessWidget {
   final String textHeading;

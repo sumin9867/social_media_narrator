@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:social_media_narrator/theme/app_color.dart';
+import 'package:social_media_narrator/core/theme/app_color.dart';
 
 class ProfileItem extends StatelessWidget {
   final IconData icon;

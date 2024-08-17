@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:social_media_narrator/theme/sizes.dart';
+import 'package:social_media_narrator/core/theme/sizes.dart';
 
 class PasswordField extends StatefulWidget {
   final TextEditingController passwordcontroller;

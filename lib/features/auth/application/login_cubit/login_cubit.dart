@@ -2,10 +2,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_cloud_firestore/firebase_cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:social_media_narrator/auth/application/login_cubit/login_state.dart';
-import 'package:social_media_narrator/auth/domain/login_model.dart';
-import 'package:social_media_narrator/auth/infrastructure/auth_repositary.dart';
-import 'package:social_media_narrator/profile/domain/user_model.dart';
+import 'package:social_media_narrator/features/auth/application/login_cubit/login_state.dart';
+import 'package:social_media_narrator/features/auth/domain/login_model.dart';
+import 'package:social_media_narrator/features/auth/infrastructure/auth_repositary.dart';
+import 'package:social_media_narrator/features/profile/domain/user_model.dart';
 
 class LoginCubit extends Cubit<LoginState> {
   final AuthRepository authRepo;
