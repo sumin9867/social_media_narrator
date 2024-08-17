@@ -4,6 +4,7 @@ import 'package:social_media_narrator/features/profile/application/cubit/profile
 import 'package:social_media_narrator/features/profile/application/cubit/profile_cubit_state.dart';
 import 'package:social_media_narrator/features/profile/presentation/profile_screen.dart';
 import 'package:social_media_narrator/core/theme/app_color.dart';
+import 'package:social_media_narrator/features/sound_recording/presentation/sound_recording_screen.dart';
 
 class NewsBottomNavigationBar extends StatefulWidget {
   const NewsBottomNavigationBar({super.key});
@@ -46,9 +47,9 @@ class _NewsBottomNavigationBarState extends State<NewsBottomNavigationBar> {
           });
         },
         children: const <Widget>[
+          SoundRecordingScreen(),
           ProfileScreen(),
-          ProfileScreen(),
-          ProfileScreen(),
+          // ProfileScreen(),
         ],
       ),
       bottomNavigationBar: Container(
@@ -72,21 +73,11 @@ class _NewsBottomNavigationBarState extends State<NewsBottomNavigationBar> {
             onTap: onNavBarTap,
             selectedItemColor: AppColor.primary,
             unselectedItemColor: Colors.grey,
-            backgroundColor: Colors.transparent,
+            // backgroundColor: Colors.transparent,
             items: <BottomNavigationBarItem>[
               const BottomNavigationBarItem(
                 icon: Icon(Icons.newspaper_rounded, size: 24),
-                label: '',
-                tooltip: '',
-              ),
-              const BottomNavigationBarItem(
-                icon: Icon(Icons.coffee, size: 24),
-                label: '',
-                tooltip: '',
-              ),
-              const BottomNavigationBarItem(
-                icon: Icon(Icons.bookmark_add_rounded, size: 24),
-                label: 'Incident',
+                label: 'Emergency',
                 tooltip: '',
               ),
               BottomNavigationBarItem(
