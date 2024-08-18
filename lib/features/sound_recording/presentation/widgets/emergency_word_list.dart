@@ -4,7 +4,7 @@ class EmergencyWordList {
     "Please help"
         "Stop",
     "No",
-    "Call 911",
+    "Call 100",
     "Get away",
     "I'm being followed",
     "I need assistance",

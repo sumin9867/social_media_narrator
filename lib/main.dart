@@ -13,7 +13,6 @@ import 'package:social_media_narrator/features/profile/infrastructure/profile_re
 import 'package:social_media_narrator/features/sound_recording/application/sound_to_text_cubit.dart';
 import 'package:social_media_narrator/features/sound_recording/infrastructure/sound_to_text_api.dart';
 import 'package:social_media_narrator/features/sound_recording/infrastructure/sound_to_text_repositary.dart';
-import 'package:social_media_narrator/features/sound_recording/presentation/sound_recording_screen.dart';
 
 import 'core/theme/app_theme.dart';
 

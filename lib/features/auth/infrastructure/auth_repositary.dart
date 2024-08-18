@@ -1,5 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_cloud_firestore/firebase_cloud_firestore.dart';
 
 import '../domain/login_model.dart';
 import '../domain/signup_model.dart';
